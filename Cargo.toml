@@ -32,7 +32,7 @@ bian-proc = { version = "0.2.0", path = "./bian-proc" }
 tungstenite = { git = "https://github.com/PrivateRookie/tungstenite-rs.git", branch = "proxy", version = "0.13" }
 thiserror = "1"
 log = "0.4.14"
-
+# syn = { version = "1", features = ["full"] }
 
 [workspace]
 members = [".", "./bian-proc"]

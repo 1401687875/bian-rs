@@ -12,6 +12,6 @@ license-file = "../LICENSE"
 proc-macro = true
 
 [dependencies]
-syn = { version = "1", features = ["extra-traits"] }
+syn = { version = "1", features = ["full"] }
 quote = "1"
 proc-macro2 = "1"
