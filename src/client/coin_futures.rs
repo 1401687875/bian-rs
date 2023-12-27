@@ -12,8 +12,8 @@ use tungstenite::{
     WebSocket,
 };
 
-const BASE_HTTP_URL: &str = "https://dapi.binance.com";
-const BASE_WS_URL: &str = "wss://dstream.binance.com";
+const BASE_HTTP_URL: &str = "https://fapi.binance.com";
+const BASE_WS_URL: &str = "wss://fstream.binance.com";
 
 /// 币本位合约 http 客户端
 #[derive(Debug, Clone)]
